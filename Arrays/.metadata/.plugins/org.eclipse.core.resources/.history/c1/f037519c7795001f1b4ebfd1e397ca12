@@ -1,0 +1,26 @@
+package com.arrayproblems;
+
+public class FrequencyInArray {
+	
+	static void printfreq(int []arr,int n) {
+		
+		int freq=0;
+		int i=0;
+		while(i<n) {
+			while(i<n && arr[i] == arr[i-1]) {
+				freq++;
+				i++;
+			}
+			System.out.println(arr[i-1]+ " "+freq);
+		}
+		i++;
+		freq=1;
+		
+	}
+	if(n==1 || arr[n-1]!=arr[n-2])
+		private void syso() {
+			// TODO Auto-generated method stub
+
+		}
+
+}

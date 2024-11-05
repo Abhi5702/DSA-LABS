@@ -1,0 +1,16 @@
+package com.stringsproblem;
+
+public class romanToInt {
+	
+	static Map<String,Integer> mymap = new HashMap<>();
+	static{
+	
+	mymap.put("M",1000);
+	mymap.put("D",500);
+	mymap.put("C",100);
+	mymap.put("L",50);
+	mymap.put("X",10);
+	mymap.put("I",1);
+	
+}
+}

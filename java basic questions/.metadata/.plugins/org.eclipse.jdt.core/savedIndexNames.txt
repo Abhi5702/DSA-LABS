@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\JLC\JLC-DSA -Labs\java basic questions\.metadata\.plugins\org.eclipse.jdt.core
+3148204780.index
+49476592.index
+1865797976.index

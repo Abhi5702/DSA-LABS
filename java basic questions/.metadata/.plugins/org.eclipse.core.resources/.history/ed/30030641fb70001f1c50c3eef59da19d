@@ -1,0 +1,18 @@
+package com.myjlc.loops;
+
+public class Lab9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// find the even numbers from 1 to n
+		int n=50;
+		
+		
+		for(int i=1;i<=n;i++) {
+			
+			if(i%6==0)
+				System.out.println(i);
+		}
+	}		
+}

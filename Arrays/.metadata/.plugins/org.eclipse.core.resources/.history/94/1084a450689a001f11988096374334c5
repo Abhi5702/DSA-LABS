@@ -1,0 +1,7 @@
+package com.stringsproblem;
+
+public class romanToInt {
+	
+	static Map<String,Integer> mymap = new HashMap<>();
+
+}

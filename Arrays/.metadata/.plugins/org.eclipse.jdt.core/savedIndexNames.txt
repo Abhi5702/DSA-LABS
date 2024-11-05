@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\JLC\JLC-DSA -Labs\Arrays\.metadata\.plugins\org.eclipse.jdt.core
+2178751970.index
+1865797976.index
+1806511111.index
+1314753643.index

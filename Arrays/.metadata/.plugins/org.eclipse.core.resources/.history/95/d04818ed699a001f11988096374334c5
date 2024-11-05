@@ -1,0 +1,51 @@
+package com.stringsproblem;
+
+import java.util.Map;
+
+public class romanToInt {
+	
+	static Map<String,Integer> mymap = new HashMap<>();
+	static{
+	
+	mymap.put("M",1000);
+	mymap.put("D",500);
+	mymap.put("C",100);
+	mymap.put("L",50);
+	mymap.put("X",10);
+	mymap.put("I",1);
+	
+}
+	public static int romanToInt( String Str ) {
+		int n= Str.length();
+		int sum=0;
+		int i=0;
+		
+		
+		while(i<n) {
+			String currSymbol = String.valueOf(Str.charAt(i));
+			int currValue = mymap.get(currSymbol);
+			
+			
+			int nextValue=0;
+			if(i+1<n) {
+				String nextValue = String.valueOf(Str.charAt(i+1));
+				int nextValue = mymap.get(nextValue);
+				
+			}
+			if(currValue>nextValue) {
+				sum=sum+currValue;
+				i=i+1;
+			}else {
+				sum=sum+(nextValue-currValue);
+						i=i+2;
+			}
+		}
+		return sum;
+	}
+	
+	public static void main(String[]args) {
+		int result = romanToInt("MCMXCIV");
+		System.out.println(result);
+	}
+	
+	}

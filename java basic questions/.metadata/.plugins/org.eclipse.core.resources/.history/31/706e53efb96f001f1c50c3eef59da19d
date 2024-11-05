@@ -1,0 +1,25 @@
+package com.myjlc.loops;
+
+public class Lab3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=20;
+		
+		int min=(a<b)?a:b;
+		System.out.println(min);
+		
+		int max=0;
+		
+		if(a<b)
+			
+			max=a;
+		else
+			max=b;
+		
+		System.out.println(max);
+	}
+
+}

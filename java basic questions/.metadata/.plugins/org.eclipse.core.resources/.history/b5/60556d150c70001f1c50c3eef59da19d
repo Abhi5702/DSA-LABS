@@ -1,0 +1,19 @@
+package com.myjlc.loops;
+
+public class Lab5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		// find the sum of the numbers from 1 to n
+		
+		int sum=0;
+		int n=79;
+		
+		for(int i=0;i<=n;i++) {
+			sum=sum+i;
+		}
+		
+		
+	}	
+}

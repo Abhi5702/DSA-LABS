@@ -1,0 +1,10 @@
+package com.arrayproblems;
+
+public class LeaderInArray {
+	
+	public static void LeaderArray(int[] arr,int n) {
+		
+		int cur_ldr=n-2;
+	}
+
+}
